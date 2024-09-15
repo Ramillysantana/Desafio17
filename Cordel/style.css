@@ -71,16 +71,37 @@ section.normal{
     color: black;
 }
 
+section >p{
+    padding-bottom: 2em;
+}
+
+
 section.imagem{
     background-color: gray;
     color: white;
-
+box-shadow: 6px 6px 13px 0px black;
+background-attachment: fixed;
 }
 
 section.imagem > p{
    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(0, 0, 0, 0.514);
     padding: 5px;
+   text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background: url(https://img.freepik.com/fotos-premium/um-fundo-colorido-com-um-fundo-colorido_875755-9.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background: url(https://papeldeparededigital.com.br/2094-large_default/papel-de-parede-floral-flores-brancas-fundo-rosa.jpg);
+background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 p.normal{
